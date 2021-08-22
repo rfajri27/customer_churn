@@ -45,13 +45,11 @@ Berdasarkan plot tersebut dapat kita ketahui bahwa dari keseluruhan customer ter
 ### Model: Logistic Regression
 
 ```
-{
 Classification Report Logistic Regression Model :
 Accuracy:  0.808
 Precesion:  0.544
 Recall:  0.661
 F1:  0.597
-}
 ```
 
 ![](images/snf_log_model.png)
@@ -59,13 +57,11 @@ F1:  0.597
 ### Model: Random Forest Classifier
 
 ```
-{
 Classification Report Random Forest Classifier:
 Accuracy:  0.798
 Precesion:  0.476
 Recall:  0.657
 F1:  0.552
-}
 ```
 
 ![](images/snf_cnf_model.png)
@@ -73,13 +69,11 @@ F1:  0.552
 ### Model: Gradient Boosting Classifier
 
 ```
-{
 Classification Report Gradient Boosting Classifier:
 Accuracy:  0.81
 Precesion:  0.515
 Recall:  0.68
 F1:  0.586
-}
 ```
 
 ![](images/snf_gbt_model.png)
@@ -87,13 +81,11 @@ F1:  0.586
 ### Model: KNN Classifier
 
 ```
-{
 Classification Report KNN Classifier:
 Accuracy:  0.81
 Precesion:  0.515
 Recall:  0.68
 F1:  0.586
-}
 ```
 
 ![](images/snf_knn_model.png)
