@@ -46,15 +46,11 @@ Berdasarkan plot tersebut dapat kita ketahui bahwa dari keseluruhan customer ter
 
 ```
 {
-	Classification Report Logistic Regression Model :
-              precision    recall  f1-score   support
-
-           0       0.85      0.90      0.87      1539
-           1       0.66      0.54      0.60       546
-
-    accuracy                           0.81      2085
-   macro avg       0.75      0.72      0.74      2085
-weighted avg       0.80      0.81      0.80      2085
+Classification Report Logistic Regression Model :
+Accuracy:  0.808
+Precesion:  0.544
+Recall:  0.661
+F1:  0.597
 }
 ```
 
@@ -64,16 +60,11 @@ weighted avg       0.80      0.81      0.80      2085
 
 ```
 {
-	Classification Report Random Forest Classifier:
-              precision    recall  f1-score   support
-
-           0       0.83      0.91      0.87      1539
-           1       0.65      0.48      0.55       546
-
-    accuracy                           0.80      2085
-   macro avg       0.74      0.69      0.71      2085
-weighted avg       0.78      0.80      0.79      2085
-
+Classification Report Random Forest Classifier:
+Accuracy:  0.798
+Precesion:  0.476
+Recall:  0.657
+F1:  0.552
 }
 ```
 
@@ -83,16 +74,39 @@ weighted avg       0.78      0.80      0.79      2085
 
 ```
 {
-	Classification Report Gradient Boosting Classifier:
-              precision    recall  f1-score   support
-
-           0       0.84      0.91      0.88      1539
-           1       0.68      0.51      0.59       546
-
-    accuracy                           0.81      2085
-   macro avg       0.76      0.71      0.73      2085
-weighted avg       0.80      0.81      0.80      2085
+Classification Report Gradient Boosting Classifier:
+Accuracy:  0.81
+Precesion:  0.515
+Recall:  0.68
+F1:  0.586
 }
 ```
 
 ![](images/snf_gbt_model.png)
+
+### Model: KNN Classifier
+
+```
+{
+Classification Report KNN Classifier:
+Accuracy:  0.81
+Precesion:  0.515
+Recall:  0.68
+F1:  0.586
+}
+```
+
+![](images/snf_knn_model.png)
+
+
+## Conclusion
+
+- Dari keseluruhan customer terdapat 26.4% customer yang melakukan churn\
+- Biaya bulanan memiliki pengaruh terhadap kecenderungan kustomer melakukan churn, dimana semakin kecil biaya bulanan yang dikenakan maka semakin kecil juga kecenderungan untuk melakukan churn. Selain itu, customer yang telah berlangganan dalam waktu yang lama memiliki kecenderungan yang kecil untuk melakukan churn.
+- Ada kecenderungan melakukan *churn* untuk customer dengan kategori berikut:
+    * Tidak memiliki partner (partner: No)
+    * orang-orang yang statusnya adalah senior citizen (`SeniorCitizen: Yes`)
+    * orang-orang yang mempunyai layanan streaming TV (`StreamingTV: Yes`)
+    * orang-orang yang mempunyai layanan Internet (`internetService: Yes`)
+    * orang-orang yang tagihannya paperless (`PaperlessBilling: Yes`)
+- Berdasarkan pemodelan yang telah dilakukan dengan menggunakan empat jenis model yang berbeda, maka dapat disimpulkan untuk memprediksi churn customer dengan menggunakan dataset ini model terbaiknya adalah menggunakan algortima Logistic Regression.
