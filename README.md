@@ -1,5 +1,9 @@
 # Customer Churn Prediction using Machine Learning
 
+- Nama : Rahmat Fajri
+- Email : rfajri912@gmail.com
+- [Portofoli](https://rfajri27.github.io/MyPortfolio/)
+
 Dataset yang digunakan pada project ini merupakan dataset  **DQLab Telco**  dari salah satu modul project-based yang telah saya selesaikan di DQLab Academy.
 
 ## Data Cleansing
