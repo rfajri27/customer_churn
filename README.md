@@ -4,7 +4,7 @@
 - Email : rfajri912@gmail.com
 - [Portofoli](https://rfajri27.github.io/MyPortfolio/)
 
-Dataset yang digunakan pada project ini merupakan dataset  **DQLab Telco**  dari salah satu modul project-based yang telah saya selesaikan di DQLab Academy.
+Dataset yang digunakan pada project ini merupakan dataset  **Virtual Telco**.
 
 ## Data Cleansing
 Langkah-langkah yang akan dilakukan adalah:
